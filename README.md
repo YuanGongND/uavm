@@ -166,9 +166,9 @@ We use `torchvision` official ImageNet pretrained ConvNext-Base as our visual fe
 
 ### VGGSound Pretrained Audio and Video Features
 
-[**Audio Features**](https://www.dropbox.com/s/px08p7zgovh7b3p/a_feat.zip?dl=1) (~15GB)
+[**Audio Features**](https://www.dropbox.com/s/px08p7zgovh7b3p/a_feat.zip?dl=1) (~20GB)
 
-[**Video Features**](https://www.dropbox.com/s/qv1umuxg1rq4dzg/v_feat.zip?dl=1) (~15GB)
+[**Video Features**](https://www.dropbox.com/s/qv1umuxg1rq4dzg/v_feat.zip?dl=1) (~10GB)
 
 ## Contact
 If you have a question, please bring up an issue (preferred) or send me an email yuangong@mit.edu.
