@@ -1,0 +1,7 @@
+*.pth
+*.pdf
+*.json
+*.pth
+*.DS_Store
+.idea/*
+copy_mdls.py
