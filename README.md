@@ -28,6 +28,8 @@ Andrew Rouditchenko](http://people.csail.mit.edu/roudi/), [James Glass](https://
 
 Conventional audio-visual models have independent audio and video branches. In this work, we *unify* the audio and visual branches by designing a **U**nified **A**udio-**V**isual **M**odel (UAVM). The UAVM achieves a new state-of-the-art audio-visual event classification accuracy of 65.8% on VGGSound. More interestingly, we also find a few intriguing properties of UAVM that the modality-independent counterparts do not have.
 
+Performance-wise, our model and training pipeline achieves good results (SOTA on VGGSound):
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/uavm-a-unified-model-for-audio-visual/multi-modal-classification-on-vgg-sound)](https://paperswithcode.com/sota/multi-modal-classification-on-vgg-sound?p=uavm-a-unified-model-for-audio-visual)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/uavm-a-unified-model-for-audio-visual/audio-classification-on-audioset)](https://paperswithcode.com/sota/audio-classification-on-audioset?p=uavm-a-unified-model-for-audio-visual)
 
