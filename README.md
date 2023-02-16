@@ -23,10 +23,13 @@
 
 <p align="center"><img src="https://github.com/YuanGongND/uavm/blob/main/uavm.png?raw=true" alt="Illustration of AST." width="600"/></p>
 
-This repository contains the official implementation (in PyTorch) of the models and experiments proposed in the IEEE Signal Processing 2022 paper [UAVM: Towards Unifying Audio and Visual Models](https://ieeexplore.ieee.org/document/9964072) ([Yuan Gong](https://yuangongnd.github.io/), [Alexander H. Liu](https://alexander-h-liu.github.io/), [	
-Andrew Rouditchenko](http://people.csail.mit.edu/roudi/), [James Glass](https://www.csail.mit.edu/person/jim-glass); MIT CSAIL). 
+This repository contains the official implementation (in PyTorch) of the models and experiments proposed in the IEEE Signal Processing 2022 paper **UAVM: Towards Unifying Audio and Visual Models** ([Yuan Gong](https://yuangongnd.github.io/), [Alexander H. Liu](https://alexander-h-liu.github.io/), [	
+Andrew Rouditchenko](http://people.csail.mit.edu/roudi/), [James Glass](https://www.csail.mit.edu/person/jim-glass); MIT CSAIL). [**[IEEE Xplore]**](https://ieeexplore.ieee.org/document/9964072) [**[arxiv]**](https://arxiv.org/abs/2208.00061)
 
 Conventional audio-visual models have independent audio and video branches. In this work, we *unify* the audio and visual branches by designing a **U**nified **A**udio-**V**isual **M**odel (UAVM). The UAVM achieves a new state-of-the-art audio-visual event classification accuracy of 65.8% on VGGSound. More interestingly, we also find a few intriguing properties of UAVM that the modality-independent counterparts do not have.
+
+To help better understand the pros and cons of this work, we have attached the anonymous reviews and our responses [**here**](https://github.com/YuanGongND/uavm/tree/main/review). We thank the associate editor and anonymous reviewers' invaluable comments.
+
 ## Citing  
 Please cite our paper if you find this repository useful. 
 ```  
