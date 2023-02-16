@@ -30,6 +30,11 @@ Conventional audio-visual models have independent audio and video branches. In t
 
 To help better understand the pros and cons of this work, we have attached the anonymous reviews and our responses [**here**](https://github.com/YuanGongND/uavm/tree/main/review). We thank the associate editor and anonymous reviewers' invaluable comments.
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/uavm-a-unified-model-for-audio-visual/multi-modal-classification-on-vgg-sound)](https://paperswithcode.com/sota/multi-modal-classification-on-vgg-sound?p=uavm-a-unified-model-for-audio-visual)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/uavm-a-unified-model-for-audio-visual/audio-classification-on-audioset)](https://paperswithcode.com/sota/audio-classification-on-audioset?p=uavm-a-unified-model-for-audio-visual)
+
+
+
 ## Citing  
 Please cite our paper if you find this repository useful. 
 ```  
