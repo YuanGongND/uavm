@@ -80,7 +80,7 @@ This part of code is in `egs/vggsound/`.
 We recommend to start with `one_click_recipe.sh` that loads our pretrained features, do all preprocessing, and train the UAVM model first. It should report a SOTA accuracy on VGGSound.
 
 ### Option 2. Step-by-Step Recipe to Do Everything from Scratch
-Alternatively, you can also start from scratch. We provide everything you would need to do so. Note: You can skip step 0-4 and directly go to step 5 if you don't want to download the dataset by your self and train your own feature extractor.
+Alternatively, you can also start from scratch. We provide everything you would need to do so. Note: You can skip step 0-4 and directly go to step 5 if you don't want to download the dataset by yourself and train your own feature extractor.
 
 0. Download the [VGGSound dataset](https://www.robots.ox.ac.uk/~vgg/data/vggsound/), create json datafiles to include the wav path, see samples at [[**here**]](https://www.dropbox.com/sh/pvvs3vd6mx3sbah/AADOroMNU_Sb2r67_CzBKw1Aa?dl=1), generate sample weight file using `./datafile/gen_weight_file`.
 1. Train an audio feature extractor with the VGGSound audio data using `run_feat_extractor.sh`, which will call `src/run_feat.py`, which will call `src/traintest_feat.py`. (You can skip this step by using our pretrained feature extractor from [[**this link**]](https://www.dropbox.com/s/aduqm8m4gpjaygh/vgg_audio_feat.pth?dl=1)).
@@ -108,7 +108,7 @@ This part of code is in `src/embedding/`.
 
 This is to reproduce Figure 3 of the UAVM Paper which analyzes the embedding of the unified models.
 
-1. Generate the intermediate representations of a model using `gen_intermediate_representation.py` (this script does more than that, but you can ignore other functions, we have also released these intermediate representations if you don't want to do your self, please see below).
+1. Generate the intermediate representations of a model using `gen_intermediate_representation.py` (this script does more than that, but you can ignore other functions, we have also released these intermediate representations if you don't want to do yourself, please see below).
 2. Build a modality classifier and record the results using `check_modality_classification_summary.py`, which will generate a `modality_cla_summary_65_all.csv` (`65` is just internal experiment id, you can ignore it, we have include this file in the repo).
 3. Plot the modality classification results using `plt_figure_2_abc.py` (Figure 2 (a), (b), and (c) of the UAVM paper).
 4. Plot the t-SNE results using `plt_figure_2_d.py` (Figure 2 (d) of the UAVM paper).
