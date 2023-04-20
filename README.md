@@ -18,6 +18,8 @@
     + [VGGSound Pretrained Model](#vggsound-pretrained-model)
   * [Contact](#contact)
 
+## News
+This paper will be presented as an oral paper at the ICASSP *Audio for Multimedia and Multimodal Processing* Session at 6/6/2023 10:50:00 (Eastern European Summer Time).
  
 ## Introduction  
 
